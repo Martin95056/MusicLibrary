@@ -19,5 +19,3 @@ class MusicCrawler:
             playlist.append(dic)
 
         return playlist
-a = MusicCrawler('/home/martin056/Music/CD1')
-print(a.generate_playlist())
